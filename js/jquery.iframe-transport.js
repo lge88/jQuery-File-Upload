@@ -17,6 +17,8 @@
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
         define(['jquery'], factory);
+    } else if (typeof module !== 'undefined') {
+        factory(require('jquery'));
     } else {
         // Browser globals:
         factory(window.jQuery);
