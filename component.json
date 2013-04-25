@@ -1,0 +1,17 @@
+{
+  "name": "jquery-file-upload",
+  "repo": "lge88/jQuery-File-Upload.git",
+  "upstream": "git://github.com/blueimp/jQuery-File-Upload.git",
+  "dependencies": {
+    "lge88/jquery": "*"
+  },
+  "local": [],
+  "scripts": [
+    "js/jquery.fileupload.js",
+    "js/iframe-transport.js",
+    "js/vendor/jquery.ui.widget.js"
+  ],
+  "styles": [],
+  "templates": [],
+  "main": "js/jquery.fileupload.js"
+}
