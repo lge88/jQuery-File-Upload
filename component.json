@@ -8,7 +8,7 @@
   "local": [],
   "scripts": [
     "js/jquery.fileupload.js",
-    "js/iframe-transport.js",
+    "js/jquery.iframe-transport.js",
     "js/vendor/jquery.ui.widget.js"
   ],
   "styles": [],

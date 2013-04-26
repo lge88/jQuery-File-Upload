@@ -21,7 +21,9 @@
             'jquery.ui.widget'
         ], factory);
     } else if (typeof module !== 'undefined') {
-        factory(require('jquery'));  
+        var jquery = require('jquery');
+        require('./vendor/jquery.ui.widget');
+        factory(jquery);  
     } else {
         // Browser globals:
         factory(window.jQuery);
